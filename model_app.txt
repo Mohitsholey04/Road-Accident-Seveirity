@@ -1,0 +1,20 @@
+accident.py
+
+ye modle main pickle file ko call karta hain.
+
+import pickle  ----->  for making the .pickle file
+
+---> HTML FILE 
+---> accident.py
+
+
+Ham puure data ko 3 parts main divide karte hain
+
+1. Train
+2. Validation
+3. Test
+
+Normal data ----> ratio : 60:20:220
+Big data ---->    ratio : 98:1:1
+
+pickle.dump(modle_name , open("model.pkl" , "wb"))
