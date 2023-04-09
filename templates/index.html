@@ -1,0 +1,486 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <style>
+        #main-header img {
+            width: 100%;
+            height: 101%;
+        }
+
+        .re-item {
+            width: 25%;
+            text-align:center;
+            transition-duration: 0.5s;
+            
+        }
+
+        .re-item:hover{
+            opacity: 0.7;
+            font-size:20px;
+            cursor: pointer;
+            transition-duration: 0.5s;
+        }
+
+        p1{
+            font-size:50px;
+        }
+        a.shops:link{
+            color:purple;
+            transition-duration: 0.5s;
+            
+        }
+        a.shops:visited{
+            color:purple;
+            transition-duration: 0.5s;
+            
+        }
+        a.shops:hover{
+            font-size:25px;
+            color:white;
+            transition-duration: 0.5s;
+        }
+
+        a.membership:link{
+            color:yellow;
+            transition-duration: 0.5s;
+            
+        }
+        a.membership:visited{
+            color:yellow;
+            transition-duration: 0.5s;
+            
+        }
+        a.membership:hover{
+            color:white;
+            font-size:20px;
+            transition-duration: 0.5s;
+        }
+
+
+        a.hell:link{
+            
+            color:pink;
+            transition-duration: 0.5s;
+            
+        }
+        a.login{
+            color:blue;
+            
+            transition-duration: 0.5s;
+            
+        }
+        a.login:hover{
+            color:blue;
+            font-size:20px;
+            transition-duration: 0.5s;
+            
+        }
+        a.login:visited{
+            color:pink;
+            transition-duration: 0.5s;
+        }
+
+
+        .logos{
+            font-size:25px;
+            transition-duration: 0.5s;
+        }
+        .logos:hover{
+            font-size:50px;
+            transition-duration: 0.5s;
+        }
+            
+
+    </style>
+
+
+
+<body>
+
+    <div class="container">
+        <header id="main-header">
+            <div class="row no-gutters">
+                <div class="col-md-4 col-lg-5">
+                    <img src="MUDS.jpeg" />
+                </div>
+
+                <div class="col-md-8 col-lg-7">
+                    <div class="d-flex flex-column">
+                        <div class="p-5 bg-dark text-white">
+                            <div class="d-flex flex-row jistify-content-between align-item-center">
+                                <h1 class="display-3">UDML</h1>&emsp;&emsp;&emsp;&emsp;&emsp;
+                                <div class=logos ><a href="https://www.facebook.com/MUDS.gla/" class="text-white"><i class="fab fa-facebook"></i></a></div>&emsp;&emsp;
+                                <div class=logos ><a href="https://www.instagram.com/muds.gla/" class="text-white"><i class="fab fa-instagram"></i></a></div>&emsp;&emsp;
+                                <div class=logos ><a href="https://twitter.com/MUDS52107844" class="text-white"><i class="fab fa-twitter"></i></a> </div>&emsp;&emsp;
+                                <div class=logos ><a href="https://github.com/MUDS-gla" class="text-white"><i class="fab fa-github"></i></a></div>&emsp;&emsp;
+
+                            </div>
+                        </div>
+                    
+
+
+
+                        <div class="p-5 text-white" style="background-color: black;">
+
+                            <p1 style="font-size: 48px;">
+                               Accident Prediction</p1>
+                               <p2>
+                            &emsp; &emsp;
+                            <a class=login href="select_login.php">Login</a>
+                            <a class=login href="signup.php">Signup</a>
+    </p2>
+    
+                        </div>
+                        <div class="d-flex flex-row">
+                            <div class="re-item p-4 bg-primary" data-toggle="collapse" data-target="#home">
+                                <i class="fas fa-home fa-2x "></i><br />
+                                <span>Home</span>
+                                
+                            </div>
+
+                            <div class="re-item p-4 bg-secondary" data-toggle="collapse" data-target="#resume">
+                                <i class="fas fa-align-justify fa-2x "></i><br />
+                                <span>About</span>
+                            </div>
+
+
+                            <div class="re-item p-4 bg-warning" data-toggle="collapse" data-target="#work">
+                                <i class="fa fa-phone fa-2x "></i><br />
+                                <span>Contact</span>
+                            </div>
+
+
+                            <div class="re-item p-4 bg-danger" data-toggle="collapse" data-target="#contact">
+                                <i class="fas fa-user-alt fa-2x "></i>
+                                <span>Members</span>
+                            </div>
+
+                        </div>
+
+
+                    
+
+
+        </header>
+        <div id="home" class="collapse show">
+            <div class="card card-body text-white bg-primary">
+                <h1>Home</h1>
+                 
+    <h3>Select Age band</h3>
+    <select>
+        <option>Select Age band</option>
+        <option>1   </option>
+        <option>1   </option>
+        <option>1   </option>
+        <option>1   </option>
+    </select>
+    <br>
+
+    <h3>Sex of driver</h3>
+    <select>
+        <option>Sex of driver</option>
+        <option>Male   </option>
+        <option>Female  </option>
+        <option>Unknown  </option>
+        
+    </select>
+    <br>
+
+    <h3>Enter The Educational Level</h3>
+    <select>
+        <option>Educational Level</option>
+        <option>Above high school</option>
+        <option>Junior high school</option><option>Unknown</option>          <option>Elementary school</option><option>High school</option><option>Illiterate</option>
+           <option>Writing & reading</option>
+        
+    </select>
+<br>
+
+<h3>Vehicle driver relation</h3>
+<select>
+    <option>Vehicle driver relation</option>
+
+    <option>Employee</option>
+    <option>Unknown</option>
+    <option>Owner</option>
+    <option>Other</option>
+
+</select>
+<br>
+
+<h3>Driving experience</h3>
+<select>
+    <option>Driving experience</option>
+
+    <option>1-2yr</option>
+    <option>Above 10yr</option>
+    <option>5-10yr</option>
+    <option>2-5yr</option>
+    <option>Unknown</option>
+    <option>No Licence</option>
+    <option>Below 1yr</option>
+
+</select>
+<br>
+
+<h3>Lanes or Medians</h3>
+<select>
+    <option>Lanes or Medians</option>
+
+    <option>1-2yr</option>
+    <option>Above 10yr</option>
+    <option>5-10yr</option>
+    <option>2-5yr</option>
+    <option>Unknown</option>
+    <option>No Licence</option>
+    <option>Below 1yr</option>
+
+</select>
+<br>
+
+<h3>Types of Junction</h3>
+<select>
+    
+        
+    <option>Types of Junction</option>
+
+    <option>Y Shape</option>
+    <option>Crossing</option>
+    <option>O Shape</option>
+    <option>Other</option>
+    <option>Unknown</option>
+    <option>T Shape</option>
+    <option>X Shape</option>
+
+</select>
+<br>
+
+<h3>Road Surface Type</h3>
+<select>
+    
+    <option>Road Surface Type</option>
+
+    <option>Asphalt roads</option>
+    <option>Earth roads</option>
+    <option>Asphalt roads with some distress</option>
+    <option>Gravel roads</option>
+    <option>Other</option>
+    <option>Unknown</option>
+
+</select>
+<br>
+
+<h3>Light Conditions</h3>
+<select>
+    
+    <option>Light Conditions</option>
+
+    <option>Daylight</option>
+    <option>Darkness - Lights Lit</option>
+    <option>Darkness - No Lighting</option>
+    <option>Darkness - Lights Unlit</option>
+
+</select>
+<br>
+
+<h3>Weather Conditions</h3>
+<select>
+    
+    <option>Weather Conditions</option>
+
+    <option>Normal</option>
+    <option>Raining</option>
+    <option>Raining and Windy</option>
+    <option>Cloudy</option>
+    <option>Windy</option>
+    <option>Snow</option>
+    <option>Fog or Mist</option>
+    <option>Other</option>
+    <option>Unknown</option>
+</select>
+<br>
+
+<h3>Type Of Collision</h3>
+<select>
+    
+    <option>Type Of Collision</option>
+
+    <option>Collision with roadside-parked vehicles</option>
+    <option>Vehicle with vehicle collision</option>
+    <option>Collision with roadside objects</option>
+    <option>Collision with animals</option>
+    <option>Rollover</option>
+    <option>Fall from vehicles</option>
+    <option>Collision with pedestrians</option>
+    <option>With Train</option>
+    <option>Other</option>
+    <option>Unknown</option>
+</select>
+<br>
+
+<h3>Vehicle Movement</h3>
+<select>
+    
+    <option>Vehicle Movement</option>
+
+    <option>Going Straight</option>
+    <option>U-Turn</option>
+    <option>Moving Backward</option>
+    <option>Turnover</option>
+    <option>Waiting to go</option>
+    <option>Getting off</option>
+    <option>Reversing</option>
+    <option>Parked</option>
+    <option>Stopping</option>
+    <option>Overtaking</option>
+    <option>Entering a junction</option>
+    <option>Other</option>
+    <option>Unknown</option>
+</select>
+<br>
+
+<h3>Pedestrian Movement</h3>
+<select>
+    
+    <option>Pedestrian Movement</option>
+
+    <option>Not a Pedestrian</option>
+    <option>Crossing from driver's nearside</option>
+    <option>Crossing from nearside - masked by parked or statioNot a Pedestrianry vehicle</option>
+    <option>Unknown or other</option>
+    <option>Crossing from offside - masked by  parked or statioNot a Pedestrianry vehicle</option>
+    <option>In carriageway</option>
+    <option>StatioNot a Pedestrianry - not crossing  (standing or playing</option>
+    <option>Walking along in carriageway, back to traffic</option>
+    <option>Walking along in carriageway, facing traffic</option>
+    <option>In carriageway, statioNot a Pedestrianry - not crossing  (standing or playing) - masked by parked or statioNot a Pedestrianry vehicle</option>
+    
+</select>
+<br>
+
+<h3>Cause Of Accident</h3>
+<select>
+    
+    <option>Cause Of Accident</option>
+
+    <option>Moving Backward</option>
+    <option>Overtaking</option>
+    <option>Changing lane to the left</option>
+    <option>Changing lane to the right</option>
+    <option>Overloading</option>
+    <option>Other</option>
+    <option>No priority to vehicle</option>
+    <option>No priority to pedestrian</option>
+    <option>No distancing</option>
+    <option>Getting off the vehicle improperly</option>
+    <option>Improper parking</option>
+    <option>Overspeed</option>
+    <option>Driving carelessly</option>
+    <option>Driving at high speed</option>
+    <option>Driving to the left</option>
+    <option>Unknown</option>
+    <option>Overturning</option>
+    <option>Turnover</option>
+    <option>Driving under the influence of drugs</option>
+    <option>Drunk driving</option>
+</select>
+<br>
+
+<h3>Accident Severity</h3>
+<select>
+    
+    <option>Accident Severity</option>
+
+    <option>2</option>
+    <option>1</option>
+    <option>0</option>
+
+</select>
+            </div>
+        </div>
+
+        <div id="resume" class="collapse show">
+            <div class="card card-body text-white bg-secondary">
+                <h1>About</h1>
+            </div>
+
+        </div>
+
+        <div id="work" class="collapse show">
+            <div class="card card-body text-white bg-warning">
+                <h1>Contact</h1>
+                
+        
+            </div>
+
+        </div>
+
+
+        <div id="contact" class="collapse show">
+            <div class="card card-body text-white bg-danger">
+               <p1>Uday Pratap Singh</p1>
+  <a href="images1.html"><img src="uday.jpg" width="300" height="300"></a>
+  <p1>Mohit Sharma</p1>
+  <a href="images2.html"><img src="mohit.jpeg" height="200"></a>
+  <p1>Dheeraj Sharma</p1>
+  <a href="images3.html">
+    <img src="https://media.istockphoto.com/id/1391720666/photo/shot-of-a-preschooler-colouring-in-class.jpg?b=1&s=170667a&w=0&k=20&c=uDP7Os9FKL2VOhpzTw9BgzwyRPkbrfLSXytuzEQQIn0=" height="200"></a>
+
+    <p1>Luvkush Sharma</p1>
+  <a href="images4.html"><img src="https://images.unsplash.com/photo-1616352116682-52d7941afd53?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyZSUyMGltYWdlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"   height="200"></a>
+
+            </div>
+</div>
+
+
+
+            
+        
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        $(".re-item").click(function () {
+            $(".collapse").collapse("hide");
+        })
+    </script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
